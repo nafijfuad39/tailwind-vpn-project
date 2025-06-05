@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/output.css" class="css" />
+  </head>
+  <body class="font-primary">
+    <header>
+      <nav
+        class="max-w-[1140px] container mx-auto flex items-center justify-between py-4"
+      >
+        <a href="./index.html">
+          <div class="flex items-center gap-2">
+            <img src="./images/logo.png" alt="" />
+            <span class="text-primary font-bold text-2xl">LaslesVPN</span>
+          </div>
+        </a>
+        <ul class="hidden md:flex list-none space-x-2">
+          <li><a href="" class="hover:text-primary">About</a></li>
+          <li><a href="" class="hover:text-primary">Features</a></li>
+          <li><a href="" class="hover:text-primary">Pricing</a></li>
+          <li><a href="" class="hover:text-primary">Testimonial</a></li>
+          <li><a href="" class="hover:text-primary">Help</a></li>
+        </ul>
+
+        <div class="hidden md:block">
+          <button class="cursor-pointer ring-2 ring-primary hover:bg-red-600 rounded-md p-1.5 hover:text-white">Sign In</button>
+          <button
+            class="rounded-md hover:bg-red-600 text-white p-2 cursor-pointer bg-primary"
+          >
+            Sign Up
+          </button>
+        </div>
+
+        <div id="toggle_menu" class="md:hidden">
+          <button>
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div id="mobile_menu" class="hidden md:hidden bg-slate-100 py-3">
+        <ul class="flex flex-col items-start list-none space-x-2">
+          <li><a href="" class="hover:text-primary">About</a></li>
+          <li><a href="" class="hover:text-primary">Features</a></li>
+          <li><a href="" class="hover:text-primary">Pricing</a></li>
+          <li><a href="" class="hover:text-primary">Testimonial</a></li>
+          <li><a href="" class="hover:text-primary">Help</a></li>
+        </ul>
+        <div class="py-5 space-x-2">
+          <button class="cursor-pointer ring-2 ring-primary hover:bg-red-600 rounded-md p-2">Sign In</button>
+          <button
+            class="rounded-md hover:bg-red-600 text-white p-2 cursor-pointer bg-primary "
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner Section -->
+
+<div class="bg-base-200">
+  <div class="max-w-[1140px] container mx-auto sm:flex items-center p-3 h-screen space-x-7">
+    <div>
+      <h2 class="text-[50px] font-bold">Want anything to be easy with LaslesVPN.</h2>
+      <p class="py-6">
+        Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.
+      </p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+    <div class="">
+         <img src="./images/banner.png" class=" max-w-[100%]" />
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
